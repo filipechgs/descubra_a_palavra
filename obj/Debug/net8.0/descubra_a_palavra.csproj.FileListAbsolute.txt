@@ -12,3 +12,4 @@ C:\Users\filip\OneDrive\Desenvolvimento\C#\descubra_a_palavra\obj\Debug\net8.0\r
 C:\Users\filip\OneDrive\Desenvolvimento\C#\descubra_a_palavra\obj\Debug\net8.0\descubra_a_palavra.pdb
 C:\Users\filip\OneDrive\Desenvolvimento\C#\descubra_a_palavra\obj\Debug\net8.0\descubra_a_palavra.genruntimeconfig.cache
 C:\Users\filip\OneDrive\Desenvolvimento\C#\descubra_a_palavra\obj\Debug\net8.0\ref\descubra_a_palavra.dll
+C:\Users\filip\OneDrive\Desenvolvimento\C#\descubra_a_palavra\obj\Debug\net8.0\descubra_a_palavra.sourcelink.json

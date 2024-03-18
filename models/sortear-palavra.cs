@@ -2,7 +2,8 @@ namespace sortear_palavra.model
 {
     public class Jogo
     {
-        private static readonly string[] palavras = ["casa", "apartamento", "pituba", "comprar", "contrato"];
+        private static readonly string[] palavras = ["casa", "carro", "amor", "vida", "paz", "alegria", "felicidade", "amizade", "família", "esperança",
+    "liberdade", "natureza", "beleza", "confiança", "criatividade", "força", "sabedoria", "verdade", "coragem", "compaixão"];
 
         public static void IniciarJogo()
         {
@@ -56,7 +57,7 @@ namespace sortear_palavra.model
                 
                 if (String.Concat(palavraOculta) == palavraSorteada || String.Concat(palavraOculta) == palpite || palpite == palavraSorteada)
                 {
-                    Console.WriteLine("Parabéns! Você acertou a palavra misteriosa!\n\nAperte 'Enter' para reiniciar ou 'escreva 'sair' para encerrar o jogo.'");
+                    Console.WriteLine("\nParabéns! Você acertou a palavra misteriosa!\n\nAperte 'Enter' para reiniciar ou 'escreva 'sair' para encerrar o jogo.'");
                     
                     palpite = Console.ReadLine().ToLower();
 
