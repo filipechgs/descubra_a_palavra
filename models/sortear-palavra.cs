@@ -55,7 +55,7 @@ namespace sortear_palavra.model
                 
                 if (String.Concat(palavraOculta) == palavraSorteada || String.Concat(palavraOculta) == palpite || palpite == palavraSorteada)
                 {
-                    Console.WriteLine("\nParabéns! Você acertou a palavra misteriosa!\n\nAperte 'Enter' para reiniciar ou 'escreva 'sair' para encerrar o jogo.'");
+                    Console.WriteLine($"\nPARABÉNS! Você acertou a palavra misteriosa!\n\n{palavraSorteada}!\n\nAperte 'Enter' para reiniciar ou 'escreva 'sair' para encerrar o jogo.'");
                     
                     palpite = Console.ReadLine().ToLower();
 
