@@ -64,6 +64,18 @@ namespace sortear_palavra.model
                         break;
                     }
                 }
+                              
+                if (tentativasUsadas == maxTentativas)
+                {
+                    Console.WriteLine("Você errou. Suas chances acabaram :(\nPresssione qualquer tecla para tentar de novo ou escreva 'sair' para sair do jogo.");
+
+                    palpite = Console.ReadLine().ToLower();
+
+                    if (palpite != "sair")
+                    {   
+                        break;
+                    }
+                }
 
                 tentativasUsadas++;
             }
