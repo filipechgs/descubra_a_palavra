@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("descubra_a_palavra")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8321eb72cfcc9f866573c24ed83da8892a6be50a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c335efed091727c97ac6dab053694590880c5381")]
 [assembly: System.Reflection.AssemblyProductAttribute("descubra_a_palavra")]
 [assembly: System.Reflection.AssemblyTitleAttribute("descubra_a_palavra")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

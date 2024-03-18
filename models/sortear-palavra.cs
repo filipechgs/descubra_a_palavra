@@ -32,7 +32,7 @@ namespace sortear_palavra.model
                 int maxTentativas = palavraSorteada.Length + (palavraSorteada.Length / 2);
 
                 Console.WriteLine($"Tentativas restantes: {maxTentativas - tentativasUsadas}");
-                Console.WriteLine($"\nA palavra misteriosa é: {String.Join("", palavraOculta)}.\n\nTente adivinhar uma das letras: ");
+                Console.WriteLine($"\nA palavra misteriosa é: {String.Join("", palavraOculta)}.\n\nTente adivinhar uma das letras (escreva 'sair' para sair do jogo): ");
         
                 palpite = Console.ReadLine().ToLower();
 
