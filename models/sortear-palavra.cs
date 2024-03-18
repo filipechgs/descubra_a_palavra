@@ -20,6 +20,7 @@ namespace sortear_palavra.model
         private static void iniciarTentativas(string palavraSorteada, string[] palavraOculta)
         {
             string palpite = "";
+            int maxTentativas = palavraSorteada.Length + (palavraSorteada.Length / 2);
             int tentativasUsadas = 0;
             char[] letrasDaPalavraSorteada = palavraSorteada.ToCharArray(0, palavraSorteada.Length);
 
@@ -28,9 +29,6 @@ namespace sortear_palavra.model
                 Console.Clear();
                 Console.WriteLine("DESCUBRA A PALAVRA!\n\nUma palavra misteriosa foi escolhida e você precisa descobrir qual é!");
                 Console.WriteLine($"\nNúmero de letras: {palavraSorteada.Length}");
-
-                int maxTentativas = palavraSorteada.Length + (palavraSorteada.Length / 2);
-
                 Console.WriteLine($"Tentativas restantes: {maxTentativas - tentativasUsadas}");
                 Console.WriteLine($"\nA palavra misteriosa é: {String.Join("", palavraOculta)}.\n\nTente adivinhar uma das letras (escreva 'sair' para sair do jogo): ");
         
